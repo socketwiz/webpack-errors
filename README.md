@@ -1,5 +1,8 @@
 # webpack-errors
 
+tl;dr  
+I narrowed the problem down to a single [module](https://github.com/socketwiz/webpack-errors/blob/master/index.js#L7).  That was supposed to be [nvd3](https://www.npmjs.com/package/nvd3).  Once I fixed that everything went to work as expected.
+
 To reproduce
 ```
 $ git clone https://github.com/socketwiz/webpack-errors.git
